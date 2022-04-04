@@ -7,7 +7,7 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
   h2:
     console:
-      enabled: true
+      enabled: true    
 
 eureka:
   client:
@@ -15,3 +15,6 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+server:
+  port: 8081
